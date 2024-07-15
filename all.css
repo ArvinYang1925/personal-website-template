@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bruno Ace SC", serif;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.menu {
+  background: #000000;
+  padding: 40px 0;
+}
+.menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu a {
+  color: #D1D1D1;
+}
+.menu a:hover {
+  color: #00FFA3;
+}
+
+.header {
+  background: #000000;
+  padding-top: 72px;
+  padding-bottom: 32px;
+}
+
+.header-content {
+  display: flex;
+}
+.header-content .info p {
+  color: #ffffff;
+  font-size: 64px;
+}
+.header-content .info h1 {
+  color: #00FFA3;
+  font-size: 128px;
+  text-align: right;
+}
+.header-content .btn {
+  display: flex;
+  margin-left: auto;
+  width: 185px;
+  color: #000000;
+  background: #FFFFFF;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+.header-content .btn:hover {
+  background: #00FFA3;
+}
+
+.introduction {
+  padding: 160px 0;
+  background-image: url(img/background-img.png);
+}
+.introduction .introduction-content {
+  display: flex;
+  justify-content: space-between;
+}
+.introduction .describe p {
+  color: #ffffff;
+}
+.introduction .describe .sm-sparkles {
+  width: 128px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-content {
+  padding: 160px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.about-content .list {
+  display: flex;
+  align-items: center;
+}
+.about-content .personal-qualities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.about-content .personal-qualities .item {
+  width: 306px;
+  padding: 16px;
+  border: 1px solid #E3E3E3;
+}
+
+.contact {
+  padding: 96px 0;
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.contact .contact-content {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .title-area {
+  display: flex;
+  align-items: center;
+}
+.contact .social-list {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .social-list a {
+  display: block;
+}
+.contact .social-list a:hover {
+  box-shadow: 0px 0px 16px 3px rgba(144, 148, 255, 0.8980392157);
+  border-radius: 20px;
+}
+
+.my-projects {
+  padding: 160px 0;
+}
+.my-projects .title-area h2 {
+  margin-left: 550px;
+}
+.my-projects .my-projects-content .see-more {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.my-projects .my-projects-content .btn {
+  display: flex;
+  width: 185px;
+  color: #ffffff;
+  background: #000000;
+  padding: 12px 24px;
+  border-radius: 32px;
+}
+.my-projects .my-projects-content .btn:hover {
+  background: red;
+}
+
+.footer {
+  padding: 40px 0;
+  background: #000000;
+  text-align: center;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.w-40 {
+  width: 40%;
+}
+
+.d-inline {
+  display: inline;
+}
+
+.sub-title {
+  font-size: 64px;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.mr-1 {
+  margin-right: 4px;
+}
+
+.mr-4 {
+  margin-right: 16px;
+}
+
+.mr-6 {
+  margin-right: 24px;
+}
+
+.mb-1 {
+  margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 16px;
+}
+
+.mb-6 {
+  margin-bottom: 24px;
+}
+
+.mb-7 {
+  margin-bottom: 28px;
+}
+
+.mb-8 {
+  margin-bottom: 32px;
+}
+
+.mb-9 {
+  margin-bottom: 36px;
+}
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-content-sb {
+  justify-content: space-between;
+}/*# sourceMappingURL=all.css.map */

@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+
+// global
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    font-family: "Bruno Ace SC", serif;
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1296px;
+    margin: 0 auto;
+}
+
+.menu {
+    background: #000000;
+    padding: 40px 0;
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    a {
+        color: #D1D1D1;
+    }
+    a:hover {
+        color: #00FFA3;
+    }
+}
+
+.header {
+    background: #000000;
+    padding-top: 72px;
+    padding-bottom: 32px;
+}
+
+.header-content {
+    display: flex;
+    .info {
+        p {
+            color: #ffffff;
+            font-size: 64px;
+        }
+        h1 {
+            color: #00FFA3;
+            font-size: 128px;
+            text-align: right;
+        }
+    }
+    .btn {
+        display: flex;
+        margin-left: auto;
+        width: 185px;
+        color: #000000;
+        background: #FFFFFF;
+        padding: 12px 24px;
+        border-radius: 32px;
+    }
+    .btn:hover {
+        background: #00FFA3;
+    }
+}
+
+.introduction {
+    padding: 160px 0;
+    background-image: url(img/background-img.png);
+    .introduction-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .describe {
+        p {
+            color: #ffffff;
+        }
+        .sm-sparkles {
+            width: 128px;
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.about-content {
+    padding: 160px 0;
+    display: flex;
+    justify-content: space-between;
+    .list {
+        display: flex;
+        align-items: center;
+    }
+    .personal-qualities {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .item {
+            width: 306px;
+            padding: 16px;
+            border: 1px solid #E3E3E3
+        }
+    }
+}
+
+.contact {
+    padding: 96px 0;
+    background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+    .contact-content {
+        display: flex;
+        justify-content: space-between;
+    }
+    .title-area {
+        display: flex;
+        align-items: center;
+    }
+    .social-list {
+        display: flex;
+        justify-content: space-between;
+        a {
+            display: block;
+        }
+        a:hover {
+            box-shadow: 0px 0px 16px 3px #9094FFE5;
+            border-radius: 20px; 
+        }
+    }
+}
+
+.my-projects {
+    padding: 160px 0;
+    .title-area {
+        h2 {
+            margin-left: 550px;
+        }
+    }
+    .my-projects-content {
+        .see-more {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .btn {
+            display: flex;
+            width: 185px;
+            color: #ffffff;
+            background: #000000;
+            padding: 12px 24px;
+            border-radius: 32px;
+        }
+        .btn:hover {
+            background: red;
+        }
+    }
+}
+
+.footer {
+    padding: 40px 0;
+    background: #000000;
+    text-align: center;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.w-40 {
+    width: 40%;
+}
+
+.d-inline {
+    display: inline;
+}
+
+.sub-title {
+    font-size: 64px;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+.mr-1 {
+    margin-right: 4px;
+}
+
+.mr-4 {
+    margin-right: 16px;
+}
+
+.mr-6 {
+    margin-right: 24px;
+}
+
+.mb-1 {
+    margin-bottom: 4px;
+}
+
+.mb-4 {
+    margin-bottom: 16px;
+}
+
+.mb-6 {
+    margin-bottom: 24px;
+}
+
+.mb-7 {
+    margin-bottom: 28px;
+}
+
+.mb-8 {
+    margin-bottom: 32px;
+}
+
+.mb-9 {
+    margin-bottom: 36px;
+}
+
+.fs-1 {
+    font-size: 32px;
+}
+
+.fs-2 {
+    font-size: 24px;
+}
+
+.fs-3 {
+    font-size: 20px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.justify-content-sb {
+    justify-content: space-between;
+}
