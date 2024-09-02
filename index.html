@@ -7,6 +7,8 @@
     <title>Personal-Website</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -22,8 +24,8 @@
     </nav>
     <header class="header">
         <div class="header-content container">
-            <img class="mr-6" src="img/people.png" alt="avatar" />
-            <div class="info w-50">
+            <img class="mr-6" src="img/people.png" alt="avatar" data-aos="zoom-in-right" />
+            <div class="info w-50" data-aos="zoom-in">
                 <p>Hi</p>
                 <p>I’m a front-end developer</p>
                 <h1>William</h1>
@@ -33,7 +35,7 @@
     </header>
     <div class="introduction">
         <div class="introduction-content container">
-            <div class="describe w-40">
+            <div class="describe w-40" data-aos="fade-right">
                 <h2 class="sub-title text-white mb-9">Introduction</h2>
                 <p class="fs-2 mb-8">Hi, I'm William Lee, a Front-End Developer with a passion for building beautiful
                     and
@@ -77,7 +79,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="about-description w-40">
+            <div class="about-description w-40" data-aos="fade-left">
                 <h2 class="sub-title mb-9">About Me</h2>
                 <p class="fs-2">With over 5 years of experience, I'm proficient in HTML, CSS, JavaScript, jQuery, and
                     React. I have a
@@ -88,7 +90,7 @@
     </div>
     <div class="contact">
         <div class="contact-content container">
-            <div class="title-area">
+            <div class="title-area" data-aos="fade-right">
                 <h2 class="sub-title text-white d-flex mr-4">CONTACT ME<img src="img/trending_flat_black_24dp 1.png"
                         alt="trending_flat_black">
                 </h2>
@@ -106,10 +108,11 @@
                 <h2 class="sub-title mb-4">My Projects</h2>
             </div>
             <div class="my-projects-content d-flex">
-                <img class="mr-6" src="img/Rectangle 10.png" alt="proj1">
+                <img class="mr-6" src="img/Rectangle 10.png" alt="proj1" data-aos="flip-left" data-aos-duration="1500">
                 <div class="projects-box">
                     <div class="projects-box-top d-flex mb-7">
-                        <img class="mr-6" src="img/Rectangle 15.png" alt="proj2">
+                        <img class="mr-6" src="img/Rectangle 15.png" alt="proj2" data-aos="flip-right"
+                            data-aos-duration="1500">
                         <div class="see-more">
                             <p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing
                                 pages. I
@@ -119,8 +122,9 @@
                         </div>
                     </div>
                     <div class="projects-box-bottom d-flex">
-                        <img class="mr-6" src="img/Rectangle 14.png" alt="proj3">
-                        <img src="img/Rectangle 29.png" alt="proj4">
+                        <img class="mr-6" src="img/Rectangle 14.png" alt="proj3" data-aos="flip-left"
+                            data-aos-duration="1500">
+                        <img src="img/Rectangle 29.png" alt="proj4" data-aos="flip-right" data-aos-duration="1500">
                     </div>
                 </div>
             </div>
@@ -129,6 +133,12 @@
     <footer class="footer">
         <p class="text-white">all rights reserved @hexschool2024</p>
     </footer>
+
+
+
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
